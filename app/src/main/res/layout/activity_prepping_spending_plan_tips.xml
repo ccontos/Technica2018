@@ -10,9 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
 
         <TableLayout
@@ -22,7 +20,7 @@
             <TableRow>
 
                 <TextView
-                    android:id="@+id/title"
+                    android:id="@+id/title1"
                     android:paddingLeft="5dp"
                     android:paddingTop="10dp"
                     android:paddingRight="5dp"
@@ -32,7 +30,7 @@
 
             <TableRow>
                 <TextView
-                    android:id="@+id/filler"
+                    android:id="@+id/filler1"
                     android:layout_width="194dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -45,9 +43,9 @@
                     android:src="@mipmap/green_bullet_" />
 
                 <TextView
-                    android:id="@+id/subtext"
+                    android:id="@+id/subtext1"
                     android:layout_width="352dp"
-                    android:layout_height="48dp"
+                    android:layout_height="25dp"
                     android:layout_weight=".1"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
@@ -58,7 +56,7 @@
 
             <TableRow>
                 <TextView
-                    android:id="@+id/filler"
+                    android:id="@+id/filler2"
                     android:layout_width="194dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="10"
@@ -71,9 +69,9 @@
                     android:src="@mipmap/green_bullet_" />
 
                 <TextView
-                    android:id="@+id/subtext"
+                    android:id="@+id/subtext2"
                     android:layout_width="352dp"
-                    android:layout_height="48dp"
+                    android:layout_height="25dp"
                     android:layout_weight=".1"
                     android:paddingLeft="5dp"
                     android:paddingRight="5dp"
@@ -81,6 +79,621 @@
 
             </TableRow>
 
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp"
+                    android:text="Organize expenses into categories such as: " />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler3"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext3"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Utilities" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler4"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext4"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Transportation" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler5"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext5"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Healthcare" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler6"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext6"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Personal/Miscellaneous" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler7"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext7"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Gifts" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler8"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext8"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Entertainment/Vacation" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler9"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext9"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Food (Groceries and Eating Out)" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler10"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext10"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Savings" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Once you review your expenses, you may be surprised to find how much you are spending. You can use this information to readjust your spending habits and focus on saving more." />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="The proper way to prepare a spending plan is: " />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler11"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext11"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="List your sources of income" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler12"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext12"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Calculate your disposable income (To calculate this: the money you have available for saving, spending and investing, after you subtract taxes from your gross monthly income)" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler13"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext13"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="List your monthly expenses" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler14"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext14"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Calculate your income vs. expenses" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Monthly Expenses:" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Fixed Expenses" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler15"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext15"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Mortgage or Rent" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler16"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext16"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Vechile Loan" />
+
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Variable Expenses" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler17"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext17"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Groceries" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler18"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext18"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Entertainment" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler19"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext19"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Credit Card Bills" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:text="A good spending plan: " />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler20"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext20"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Reveals your financial condition by comparing income to expenses" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler21"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext21"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Helps avoid overspending and shows where you can save" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler22"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext22"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Breaks down your expenses into helpful categories" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler23"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext23"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Helps you save for emergencies and anticipated needs" />
+
+            </TableRow>
 
         </TableLayout>
 
