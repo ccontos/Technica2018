@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
     private static final int myFlag = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

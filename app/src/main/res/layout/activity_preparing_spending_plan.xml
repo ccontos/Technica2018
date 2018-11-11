@@ -17,16 +17,16 @@
         android:layout_marginTop="0dp"
         android:padding="5dp"
         android:text="Creating a spending plan shows you exactly how you spend your money. A good spending plan allows you to see where your money is going so you can pay your bills, cut expenses and save and invest. It can also help you spot problems with your finances and identify the warning signs of too much debt. After reviewing this information, take the quiz to test your knowledge!"
-        android:textSize="24sp" />
-
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"/>
 
     <Button
         android:id="@+id/tipButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="102dp"
+        android:layout_height="49dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="378dp"
-        android:layout_marginEnd="-235dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="-296dp"
         android:layout_toStartOf="@+id/prepSpendingPlanTitle"
         android:onClick="tipOnClick"
         android:text="Tips" />
@@ -34,13 +34,14 @@
     <Button
         android:id="@+id/resourcesButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/tipButton"
+        android:layout_height="49dp"
+        android:layout_above="@+id/quizButton"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="62dp"
-        android:layout_marginEnd="201dp"
-        android:layout_marginRight="201dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginRight="230dp"
+        android:layout_marginBottom="-110dp"
+        android:onClick="resourcesOnClick"
         android:text="Resources" />
 
     <Button
@@ -50,9 +51,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="91dp"
-        android:layout_marginRight="91dp"
-        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:layout_marginBottom="96dp"
         android:text="Quiz" />
 
 </RelativeLayout>

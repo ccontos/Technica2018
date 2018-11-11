@@ -7,6 +7,16 @@
     tools:context=".MainActivity"
     android:background="@color/colorWhite">
 
+    <ImageView
+        android:id="@+id/titleImage"
+        android:layout_width="288dp"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logo" />
+
 
     <TextView
         android:id="@+id/mainActivityTitle"
