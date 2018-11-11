@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chloecontos.technica2018">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreparingSpendingPlan"
+            android:label="Preparing a Spending Plan" />
+        <activity
+            android:name=".SavingForCollege"
+            android:label="Saving for College" />
+        <activity
+            android:name=".SettingSMARTGoals"
+            android:label="Setting SMART Goals" />
+        <activity
+            android:name=".MainMenuList"
+            android:label="Financial Options" />
+        <activity android:name=".PreppingSpendingPlanTips"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreppingSpendingPlanTips"
+    android:background="@color/colorWhite">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/bulletpoint1"
+                    android:layout_width="81dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:text="test"/>
+
+
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
