@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingForCollegeTips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:text="Tips:" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler1"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext1"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Plan what kind of Institute is the best fit according to the set budget" />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler2"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext2"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Understanding the annual charges apart from the cost of the tution" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler3"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext3"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Use utilities for fee waiver for students who are eligible for waiver" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler4"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext4"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Follow up with FAFSA agents for tuition guidance for forgiveness on the loan" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler5"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext5"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Set limit on the weekly expenses" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler6"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext6"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Manage and opt for tuition payment" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler7"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext7"
+                    android:layout_width="352dp"
+                    android:layout_height="25dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Set up direct payment plan to avoid late fees" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler8"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext8"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Take advantage of local discount and free material to control expenses" />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
