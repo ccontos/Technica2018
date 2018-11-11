@@ -34,6 +34,15 @@
         <activity
             android:name=".PreparingSpendingPlanResources"
             android:label="Resources"/>
+        <activity
+            android:name=".SavingForCollegeResources"
+            android:label="Resources"/>
+        <activity
+            android:name=".SavingForCollegeTips"
+            android:label="Tips"/>
+        <activity
+            android:name=".SettingSMARTGoalsTips"
+            android:label="Tips"/>
         <activity android:name=".PreparingSpendingPlanQuiz"></activity>
     </application>
 
