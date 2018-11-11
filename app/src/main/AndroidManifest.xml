@@ -28,7 +28,9 @@
         <activity
             android:name=".MainMenuList"
             android:label="Financial Options" />
-        <activity android:name=".PreppingSpendingPlanTips"></activity>
+        <activity
+            android:name=".PreppingSpendingPlanTips"
+            android:label="Prepping a Spending Plan"></activity>
     </application>
 
 </manifest>
