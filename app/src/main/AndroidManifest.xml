@@ -30,7 +30,8 @@
             android:label="Financial Options" />
         <activity
             android:name=".PreppingSpendingPlanTips"
-            android:label="Prepping a Spending Plan"></activity>
+            android:label="Prepping a Spending Plan" />
+        <activity android:name=".PreparingSpendingPlanQuiz"></activity>
     </application>
 
 </manifest>

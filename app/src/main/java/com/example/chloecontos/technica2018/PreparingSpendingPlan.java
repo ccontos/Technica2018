@@ -32,4 +32,11 @@ public class PreparingSpendingPlan extends AppCompatActivity {
             preparingspendingplanresources.addFlags(myFlag);
         startActivity(preparingspendingplanresources);
     }
+
+    public void quizOnClick(View view){
+        Intent preparingspendingplanquiz = new Intent(PreparingSpendingPlan.this, PreparingSpendingPlanQuiz.class);
+        if(USE_FLAG)
+            preparingspendingplanquiz.addFlags(myFlag);
+        startActivity(preparingspendingplanquiz);
+    }
 }
