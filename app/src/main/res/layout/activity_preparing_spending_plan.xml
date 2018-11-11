@@ -11,41 +11,48 @@
         android:id="@+id/prepSpendingPlanTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="58dp"
-        android:text="test"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:text="Creating a spending plan shows you exactly how you spend your money. A good spending plan allows you to see where your money is going so you can pay your bills, cut expenses and save and invest. It can also help you spot problems with your finances and identify the warning signs of too much debt. After reviewing this information, take the quiz to test your knowledge!"
         android:textSize="24sp" />
 
 
     <Button
-        android:id="@+id/introTextButton"
+        android:id="@+id/tipButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="264dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="-235dp"
         android:layout_toStartOf="@+id/prepSpendingPlanTitle"
+        android:onClick="tipOnClick"
         android:text="Tips" />
 
     <Button
         android:id="@+id/resourcesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/introTextButton"
+        android:layout_alignTop="@+id/tipButton"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="82dp"
-        android:layout_marginRight="82dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginRight="201dp"
         android:text="Resources" />
 
     <Button
         android:id="@+id/quizButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="26dp"
         android:text="Quiz" />
 
 </RelativeLayout>

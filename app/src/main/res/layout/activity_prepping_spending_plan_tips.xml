@@ -10,7 +10,9 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
 
         <TableLayout
@@ -19,20 +21,65 @@
 
             <TableRow>
 
+                <TextView
+                    android:id="@+id/title"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:text="Monitor your spending for a month" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
                 <ImageView
-                    android:id="@+id/bulletpoint1"
-                    android:layout_width="81dp"
-                    android:layout_height="90dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
 
                 <TextView
-                    android:id="@+id/text1"
-                    android:text="test"/>
-
+                    android:id="@+id/subtext"
+                    android:layout_width="352dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Write down every time you use cash" />
 
             </TableRow>
 
 
+            <TableRow>
+                <TextView
+                    android:id="@+id/filler"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="" />
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="15dp"
+                    android:paddingTop="5dp"
+                    android:src="@mipmap/green_bullet_" />
+
+                <TextView
+                    android:id="@+id/subtext"
+                    android:layout_width="352dp"
+                    android:layout_height="48dp"
+                    android:layout_weight=".1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="Write down every time you use cash" />
+
+            </TableRow>
 
 
         </TableLayout>
