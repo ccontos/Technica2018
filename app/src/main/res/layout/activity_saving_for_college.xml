@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SavingForCollege">
+    android:background="@color/colorWhite">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/prepSpendingPlanTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        android:text="These tips and resources will help you prepare to save for your college education. The tips will also help you select a college that best fits your financial needs. After reviewing this information, take the quiz to test your knowledge!"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/tipButton"
+        android:layout_width="102dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="-296dp"
+        android:layout_toStartOf="@+id/prepSpendingPlanTitle"
+        android:onClick="tipOnClick"
+        android:text="Tips" />
+
+    <Button
+        android:id="@+id/resourcesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_above="@+id/quizButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginRight="230dp"
+        android:layout_marginBottom="-110dp"
+        android:onClick="resourcesOnClick"
+        android:text="Resources" />
+
+    <Button
+        android:id="@+id/quizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:layout_marginBottom="96dp"
+        android:text="Quiz" />
+
+</RelativeLayout>
