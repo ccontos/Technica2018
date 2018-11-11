@@ -31,6 +31,9 @@
         <activity
             android:name=".PreppingSpendingPlanTips"
             android:label="Prepping a Spending Plan" />
+        <activity
+            android:name=".PreparingSpendingPlanResources"
+            android:label="Resources"/>
         <activity android:name=".PreparingSpendingPlanQuiz"></activity>
     </application>
 

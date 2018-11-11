@@ -16,7 +16,7 @@ public class MainMenuList extends AppCompatActivity {
     private static final boolean USE_FLAG = true;
     private static final int myFlag = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT;
 
-    private int[] BUTTONIMAGE = {R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background, R.drawable.ic_launcher_background};
+    private int[] BUTTONIMAGE = {R.drawable.money, R.drawable.piggy_bank, R.drawable.success};
 
     private String[] BUTTONTITLE = {"Preparing a Spending Plan", "Saving for College", "Setting SMART Goals"};
 
